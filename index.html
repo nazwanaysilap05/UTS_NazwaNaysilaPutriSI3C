@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2> Royal Dashboard</h2>
+        <input type="text" placeholder="Cari Kelas, Dokumen, Aktifitas dll...">
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#" id="home" class="active">Home</a></li>
+                <li><a href="#" id="mahasiswa">Mahasiswa</a></li>
+                <li><a href="#" id="kelas">Kelas</a></li>
+                <li><a href="#">Aktifitas</a></li>
+                <li><a href="#">Statistik</a></li>
+                <li><a href="#">Dokumen</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#" class="Signout">Sign Out</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <section id="konten" class="dashboard">
+                <div class="welcome-card">
+                    <div>
+                        <h1>Selamat Datang, Nama Mahasiswa-kelas</h1>
+                        
+                        
+                        <br>
+                        <p>Kamu memiliki Statistik, 3 Progres Kelas, 4 Aktifitas Selanjutnya dan 3 Lampiran</p>
+                        <p> Dokumen yang ada pada aplikasi ini.</p>
+                    </div>
+                    <img src="WAWA.jpg" alt="Profil Mahasiswa">
+                </div>
+
+                <div class="stats-section">
+                    <div class="card">
+                        <h3>Statistik Mahasiswa</h3>
+                        <img src="Chart (3).svg"alt="Chart Statistik">
+                    </div>
+                    <div class="card">
+                        <h3>Progres Kelas</h3>
+                        <ul>
+                            <p>Matakuliah A <br><a href="78 Pendaftar"> 78 Pendaftar </a></p>
+                            <p>Matakuliah B <br><a href="30 Pendaftar"> 30 Pendaftar </a></p> 
+                            <p>Matakuliah C <br><a href="40 Pendaftar"> 40 Pendaftar </a></p> 
+                            <p>Matakuliah D <br><a href="10 Pendaftar"> 10 Pendaftar </a></p> 
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Aktifitas Selanjutnya</h3>
+                        <ul>
+                            <p>Perkuliahan Daring 1 <br><a href="Senin, 15 Januari 2025">Senin, 15 Januari 2025</a> </p>
+                            <p>Perkuliahan Daring 1 <br><a href="Selasa, 15 Februari 2025">Selasa, 15 Februari 2025</a></p>
+                            <p>Perkuliahan Daring 1 <br><a href="Rabu, 15 Maret 2025">Rabu, 15 Maret 2025 </a></p>
+                            <p>Perkuliahan Daring 1 <br><a href="Kamis, 15 April 2025">Kamis, 15 April 2025 </a></p>
+                        </ul>
+                    </div>
+                </div>
+
+                <footer>
+        <br><h4>Lampiran</h4></br>
+        <div class="lampiran">
+          <div class="doc">Lampiran Dokumen 1 — Matakuliah A | Tugas Bersama Perkuliahan Daring | <a href="Lihat Dokumen">Lihat Dokumen</a></div>
+          <div class="doc">Lampiran Dokumen 2 — Matakuliah B | Tugas Bersama Perkuliahan Daring | <a href="Lihat Dokumen">Lihat Dokumen</a></div>
+          <div class="doc">Lampiran Dokumen 3 — Matakuliah C | Tugas Bersama Perkuliahan Daring | <a href="Lihat Dokumen">Lihat Dokumen</a></div>
+        </div>
+      </footer>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
